@@ -5,7 +5,6 @@ import (
 	"fmt"
 )
 
-
 func main() {
 	f := fmt.Println
 	card := NewCardMode("K", 2, 2)
@@ -24,7 +23,7 @@ func main() {
 
 	f(card.IsBigValue(card2))
 	f(card.IsSmallValue(card2))
-	f(card.IsEqualValue(card2))
+	f(card.IsEquilValue(card2))
 
 	collect.View("cardh", " ", card, card2)
 	collect.View("cardh", " ", card, card, card, card2, card2, card2)
