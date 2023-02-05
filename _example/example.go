@@ -1,7 +1,7 @@
 package main
 
 import (
-	. "Card"
+	. "Card/card"
 	"fmt"
 )
 
